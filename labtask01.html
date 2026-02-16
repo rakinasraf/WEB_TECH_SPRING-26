@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admission Form</title></head>
+ 
+<body>
+    <h1>Admission Form</h1>
+    <form>
+        <fieldset><legend>Personal Information</legend>
+        <table>
+            <tr>
+                <td> First Name :</td>
+                <td> <input type="text" maxlength="50"> </td>
+            </tr>
+            <tr>
+                <td> Last Name :</td>
+                <td><input type="text" maxlength="50">  </td>
+            </tr>
+            <tr>
+                <td>Date of Birth :</td>
+                <td> <input type="date"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td> <input type="radio" name="Gender" value="Male">Male<input type="radio" name="Gender" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td> Age : </td>
+                <td> <input type="number" maxlength="2"></td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Mobile : </td>
+                <td><input type="tel" maxlength="11"></td>
+            </tr>
+        </table>
+        </fieldset>
+        <fieldset><legend>Academic Information</legend>
+        <table>
+            <tr>
+                <td>School Name : </td>
+                <td><input type="text" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Collage Name : </td>
+                <td><input type="text" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>SSC GPA : </td>
+                <td><input type="text" maxlength="5"></td>
+            </tr>
+            <tr>
+                <td>HSC GPA : </td>
+                <td><input type="text" maxlength="5"></td>
+            </tr>
+            <tr>
+                <td>Choose Department :</td>
+                <td> <input type="radio" name="Department" value="CSE">CSE</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="Department" value="EEE">EEE</td>
+            </tr>
+            <tr>
+                <td>Interest : </td>
+                <td><input type="checkbox" name="Interest" value="Software Development">Software Development</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Interest" value="Computer Network">Computer Network</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Interest" value="Computer Engineer">Computer Engineer</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Interest" value="Electric Engineer">Electric Engineer</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Interest" value="Machine Learning">Machine Learning</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Interest" value="Data Science">Data Science</td>
+            </tr>
+            <tr>
+                <td>Attach your transcript : </td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+    <button>Submit</button>
+</body>
+</html>
